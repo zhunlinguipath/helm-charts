@@ -19,7 +19,7 @@ priorityClassName: ""
 # Url to access prometheus
 prometheus:
   # Value is templated
-  url: http://prometheus.default.svc
+  url: http://prometheus-server.ingress-nginx.svc
   port: 9090
   path: ""
 
